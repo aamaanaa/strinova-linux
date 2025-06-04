@@ -1,6 +1,8 @@
 # Strinova on linux
 Lutris script and guide to let strinova run on linux. It works by setting a certain registery key, and that seems to manage the conflict the anticheat has with winedbg.
 
+For now this is working. But since it is kernel level anticheat, i hope the devs keep it that way. Since we do not need to modify game files, it seems to me that this is not a reason to be banned, but be warned. it can happen.
+
 - Tested on Fedora 42
 
 ## Instructions
