@@ -18,15 +18,17 @@ Afther the installer is done, download the entire game, and afther that set the 
 
 It may be needed to set the wine runner to a lower version due the launcher crashing when downloading. It appears that wine-ge-proton-8.26 works.
 
-Nvidia users report that the game does not launch at all. More info is needed on this. I have AMD so i would not know how to fix it.
+Game can be played on NVIDIA GPU with some graphical issues [1]
+
+1. https://github.com/ValveSoftware/Proton/issues/8262#issuecomment-2953691047
 
 ## Video guide
-you may follow this youtube turtorial i have made to install it manually:
-- https://www.youtube.com/watch?v=ylbCdFw0ACU
+you may follow this youtube turtorial [2] i have made to install it manually:
+2. https://www.youtube.com/watch?v=ylbCdFw0ACU
 
 ## Issues and help
 please report issues and help in the repo. Please attach the lutris debug log, aswell info of what os you use, what wine runner, what gpu, and so on.
 
 ## Additional info
-See the reddit discussion i started for usefull info:
-- https://www.reddit.com/r/linux_gaming/comments/1l31uvj/psa_strinova_works/
+See the reddit discussion [3] i started for usefull info:
+3. https://www.reddit.com/r/linux_gaming/comments/1l31uvj/psa_strinova_works/
