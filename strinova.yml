@@ -1,57 +1,41 @@
-name: Strinova Launcher
-game_slug: strinova-launcher
+description: ''
+game_slug: strinova
+gogslug: ''
+humblestoreid: ''
+installer_slug: strinova-download-v119
+name: Strinova
+notes: In the launcher, leave the default installation on C:\Strinova
 runner: wine
-version: 0.0.1
-year: 2024
-slug: strinova-launcher
-steamid: 1282270
-
-notes: >
-  It may be required to start the game with a Wine version of at least 10.0+ (wine-tkg is tested).
-  A crash window will appear. Ignore it. Do not click any of the buttons in the crash window — if you do, the game will crash.
-  
-  Install the launcher, click install, and then close it. Do not yet start it!
-  
-  Afther the installer is done, download the entire game, and afther that set the wine runner to wine-tkg 10 +. 
-
-  It may be needed to set the wine runner lower due the launcher crashing when downloading. It appears that wine-ge-proton-8.26 works.
-
-
 script:
   files:
-    - installer: https://resource-download.strinova.com/Client/Win/GameDepot/Launcher_Release/1.1.9.558/Strinova_Installer_Release_1.1.9.558.exe
-
+  - installer:
+      filename: StrinovaSetup.exe
+      url: https://resource-download.strinova.com/Client/Win/GameDepot/Launcher_Release/1.1.9.558/Strinova_Installer_Release_1.1.9.558.exe
   game:
-    exe: drive_c/Strinova/Strinova.exe
+    arch: win64
+    exe: $GAMEDIR/drive_c/Strinova/Strinova.exe
     prefix: $GAMEDIR
-
+    working_dir: $GAMEDIR
   installer:
-    - task:
-        name: create_prefix
-        arch: win64
-        prefix: $GAMEDIR
-
-    - task:
-        name: wineexec
-        executable: installer
-        description: Installing Strinova Launcher
-        prefix: $GAMEDIR
-
-    - task:
-        name: set_regedit
-        prefix: $GAMEDIR
-        arch: win64
-        path: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\AeDebug
-        key: Auto
-        value: 0
-        type: REG_SZ
-
-    - task:
-        name: set_regedit
-        prefix: $GAMEDIR
-        arch: win64
-        path: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\AeDebug
-        key: Debugger
-        value: 
-        type: REG_SZ
-
+  - task:
+      key: Auto
+      name: set_regedit
+      path: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\AeDebug
+      value: 0
+  - task:
+      key: Debugger
+      name: set_regedit
+      path: HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\AeDebug
+      value: ''
+  - task:
+      executable: installer
+      name: wineexec
+      prefix: $GAMEDIR
+  wine:
+    overrides:
+      tdh.dll: n
+    version: wine-10.7-staging-tk-x86_64
+slug: strinova-download-v119
+steamid: 1282270
+version: download, v1.1.9
+year: 2024
