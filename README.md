@@ -27,6 +27,13 @@ The yaml file in this repo has been published by me to the official lutris websi
 - Select the downloaded yaml file.
 - Continue with the installation.
 
+## Fix for exepction window
+in the yaml file:
+- `wine: overrides: tdh.dll: n`
+
+the tdh.dll is set to native wich is required to prevent the exception window from poping up.
+
+
 
 ## Bannable?
 For as now i have not heard reports that poeple where banned. I did not get banned in like a week of extensive playing. The workaround does not include modifying of game files and only registery, so in my opinion this should not get you banned. But however please keep in mind that there might be a small risk.
@@ -41,7 +48,6 @@ if you have the game already installed somewhere else and you want to import it 
 
 ## Notes
 - It may be required to start the game with a Wine version of at least 10.0+ (wine-tkg is tested).
-- A Eception window might appear. Ignore it. Do not click any of the buttons in the crash window — if you do, the game will crash.  
 - Afther the installer is done, download the entire game, and afther that set the wine runner to wine-tkg 10 +, or any other wine runner that works for you.
 - It may be needed to set the wine runner to a lower version due the launcher crashing when downloading. It appears that wine-ge-proton-8.26 works.
 
