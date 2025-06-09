@@ -1,14 +1,34 @@
+![strinova-17sub-2131408368](https://github.com/user-attachments/assets/e8663167-a843-4d3c-ac27-1e17c3a75cfc)
+
+
 # Strinova on linux
 Lutris script and guide to let strinova run on linux. It works by setting a certain registery key, and that seems to manage the conflict the anticheat has with winedbg.
 
 For now this is working. But since it is kernel level anticheat, i hope the devs keep it that way. Since we do not need to modify game files, it seems to me that this is not a reason to be banned, but be warned. it can happen.
 
-- Tested on Fedora 42
+- Tested on Fedora 42, with a AMD gpu.
 
 ## Instructions
 - install lutris.
 - Download the yaml playbook, and in lutris, select that yaml file and install the game that way
 - That is it
+
+## From the lutris website
+The yaml file in this repo has been published by me to the official lutris website. You can find it here:
+- https://lutris.net/games/install/39289/view
+
+click the `+` icon in lutris, `Searh the lutris site for installers`.
+
+![Screenshot From 2025-06-09 13-17-38](https://github.com/user-attachments/assets/b6ff294b-8465-45a5-8a21-0b664ef5cb7f)
+
+
+## Manually import game
+if you have the game already installed somewhere else and you want to import it to lutris:
+
+- Copy game to drive_c/Strinova/Game
+- In `drive_c/Strinova/config.ini` change CurrentGameVersion to `1.3.10.21` and `CurrentStage` to `INITSTAGE`. The version will fall out of date over time, copy new value from Windows or start downloading fresh to get current version string.
+
+`drive_c/Strinova/config.ini` can be found by right clicking Strinova in lutris > Browse Files
 
 ## Notes
 It may be required to start the game with a Wine version of at least 10.0+ (wine-tkg is tested).
