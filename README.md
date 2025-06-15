@@ -1,4 +1,5 @@
 ![strinova-17sub-2131408368](./images/cover.jpg)
+
 ### [Installation Guide](./INSTALLATION.md) 
 
 # Strinova on Linux
@@ -11,11 +12,13 @@ There are no reports with bans, this method does not modify game files, **BUT** 
 
 ### Having issues?
 - Check [known issues](./KNOWN_ISSUES.md) 
-- Submit an issue
+- Report a [new issue](https://github.com/aamaanaa/strinova-linux/issues/new/choose)
+
+** DO NOT ** report lutris specific issues in [valve's proton github repo](https://github.com/ValveSoftware/Proton/issues/8262)!
 
 ## Additional info
-See the reddit discussion I started for usefull info:
+See the reddit discussion I started for usefull information:
 - https://www.reddit.com/r/linux_gaming/comments/1l31uvj/psa_strinova_works/
 
-See offficail issue in valve proton github repo:
+See official issue in valve's proton github repo:
 - https://github.com/ValveSoftware/Proton/issues/8262
