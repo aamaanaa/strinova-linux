@@ -14,7 +14,7 @@ There are no reports with bans, this method does not modify game files, **BUT** 
 - Submit an issue
 
 ## Additional info
-See the reddit discussion i started for usefull info:
+See the reddit discussion I started for usefull info:
 - https://www.reddit.com/r/linux_gaming/comments/1l31uvj/psa_strinova_works/
 
 See offficail issue in valve proton github repo:
