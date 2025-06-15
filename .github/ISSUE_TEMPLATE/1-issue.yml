@@ -1,0 +1,63 @@
+name: Issue with game
+description: File an issue report
+title: "[Issue] "
+body:
+  - type: dropdown
+    attributes:
+      label: Installation method
+      multiple: false
+      options:
+        - From Lutris
+        - YAML Script
+        - Manually
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: wine-version
+    attributes:
+      label: Wine version
+      description: Required if you installed Strinova manually or changed Wine version 
+    validations:
+      required: false
+
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU
+    validations:
+      required: true
+
+  - type: input
+    id: system
+    attributes:
+      label: System info
+      description: Your linux distribution, desktop environment, any relevant data
+      placeholder: for ex. Fedora 42, KDE 6, Wayland
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs from Lutris/Game
+      render: shell
+  
+  - type: dropdown
+    attributes:
+      label: Where issue happened?
+      multiple: false
+      options:
+        - Game
+        - Launcher
+      default: 0
+    validations:
+      required: true
