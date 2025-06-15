@@ -14,7 +14,7 @@ There are no reports with bans, this method does not modify game files, **BUT** 
 - Check [known issues](./KNOWN_ISSUES.md) 
 - Report a [new issue](https://github.com/aamaanaa/strinova-linux/issues/new/choose)
 
-** DO NOT ** report lutris specific issues in [valve's proton github repo](https://github.com/ValveSoftware/Proton/issues/8262)!
+**DO NOT** report lutris specific issues in [valve's proton github repo](https://github.com/ValveSoftware/Proton/issues/8262)!
 
 ## Additional info
 See the reddit discussion I started for usefull information:
