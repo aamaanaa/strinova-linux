@@ -25,8 +25,7 @@ After installing the launcher, close the window and run the launcher in Lutris
 ## 2. Game installation
 > [!WARNING]
 > Game installation(and update) and running game may require different wine versions!
-> If installation failed (launcher crashes), select known wine version
-> Known wine for installing/updating game: `wine-ge-proton-8.26`
+> If installation failed (launcher crashes), select `wine-ge-proton-8.26` as your runner
 
 > [!NOTE]
 > Recommend to leave installation path `C:\Strinova\Game`
