@@ -1,5 +1,8 @@
 ![strinova-17sub-2131408368](./images/cover.jpg)
 
+> [!WARNING]
+> There are missing textures reports on latest game version!
+
 ### [Installation Guide](./INSTALLATION.md) 
 
 # Strinova on Linux
@@ -14,7 +17,7 @@ There are no reports with bans, this method does not modify game files, **BUT** 
 - Check [known issues](./KNOWN_ISSUES.md) 
 - Report a [new issue](https://github.com/aamaanaa/strinova-linux/issues/new/choose)
 
-**DO NOT** report lutris specific issues in [valve's proton github repo](https://github.com/ValveSoftware/Proton/issues/8262)!
+**DO NOT** report lutris specific issues in [valve's proton github repo](https://github.com/ValveSoftware/Proton/issues/8262) or here!
 
 ## Additional info
 See the reddit discussion I started for usefull information:

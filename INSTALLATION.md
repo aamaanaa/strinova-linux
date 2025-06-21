@@ -8,7 +8,7 @@ https://www.youtube.com/watch?v=ylbCdFw0ACU
 > [!NOTE]
 > Recommend to leave installation path `C:\Strinova`
 
-### Install from Lutris (Recommend)
+### Install from Lutris
 - Click the `+` icon 
 - Find `Strinova` in `Searh the lutris site for installers`
 ![](./images/script.png)
