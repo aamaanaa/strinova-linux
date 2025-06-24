@@ -25,7 +25,7 @@
 - Click settings, 
     - DLL Overrides add `tdh.dll`. Hit enter.
     - In the drop-down next to `tdh.dll` select `Native (Windows)`.
-    - Click Environment Variables and add `PULSE_LATENCY_MSEC=60`. Hit enter.
+    - Click Environment Variables and add `PULSE_LATENCY_MSEC=60` (to stop audio from crackling). Hit enter.
 - Click Tools > Registry Editor and navigate to `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\AeDebug`
 - Set `Auto` to `0` and `Debugger` to `` (empty).
 
