@@ -1,9 +1,9 @@
 ![strinova-17sub-2131408368](./images/cover.jpg)
 
-### [Installation Guide](./INSTALLATION.md) 
+### Installation Guide ([Lutris]](./lutris/INSTALLATION.md) | [Bottles]](./bottles/INSTALLATION.md)) 
 
 # Strinova on Linux
-Lutris script and guide to let strinova run on linux. It works by setting a certain registery key, and that seems to manage the conflict the anticheat has with winedbg.
+Bottles/Lutris script and guide to let strinova run on linux. It works by setting a certain registery key, and that seems to manage the conflict the anticheat has with winedbg.
 
 Should work on any AMD GPU without issues, check [this table](./TESTED.md) for more info
 
