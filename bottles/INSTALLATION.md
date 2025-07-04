@@ -1,6 +1,8 @@
-# Video Guide: https://www.youtube.com/watch?v=tTXlXtChcfc
-# Text Guide
+# Video Guide: 
+https://www.youtube.com/watch?v=tTXlXtChcfc
 
+
+# Text Guide
 
 ## 1. Downloading the Launcher
 - Visit the strinova website and download the PC client (non-steam, non-epic games)
@@ -22,21 +24,24 @@
 ### 2.3 Configuring the bottle
 - Click the newly created bottle
 - Click dependencies, scroll down and install `vcredist2022`
-- Click settings, 
+- Click settings
     - DLL Overrides add `tdh.dll`. Hit enter.
     - In the drop-down next to `tdh.dll` select `Native (Windows)`.
     - Click Environment Variables and add `PULSE_LATENCY_MSEC=60` (to stop audio from crackling). Hit enter.
 - Click Tools > Registry Editor and navigate to `HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\AeDebug`
-- Set `Auto` to `0` and `Debugger` to `` (empty).
+- Set `Auto` to `0` and `Debugger` to `` (empty)
 
 ## 3. Installing Strinova
 - Click run executable and select the game installer (PC client only)
 - Click install and use the defaults
 - Open the Launcher if prompted
-- If asked for the WebView2 install, proceed with the installations. You can uncheck the Bing Bar.
+- If asked for the WebView2 install, proceed with the installations. You can uncheck the Bing Bar
 - Once done, click add shortcut and select `drive_c/Strinova/Strinova.exe`
-- Hit play and download and install Strinova. It may crash several times. Simply ensure all bottles processes are closed and that winedevice.exe is closed too (it likes to persist even when Bottles is closed).
+- Hit play and download and install Strinova. It may crash several times. Simply ensure all bottles processes are closed and that winedevice.exe is closed too (it likes to persist even when Bottles is closed)
 
 ## 4. Playing Strinova
-- Run the Strinova Launcher and hit play just like you would on Windows.
-- If you are unable to click on anything, try hitting alt+enter and/or moving the Window to another screen.
+- Run the Strinova Launcher and hit play just like you would on Windows
+- If you are unable to click on anything, try hitting alt+enter and/or moving the Window to another screen
+
+> [!TIP]
+> Successfully launched the game? Take a moment and [report your hardware](https://github.com/aamaanaa/strinova-linux/issues/new/choose)

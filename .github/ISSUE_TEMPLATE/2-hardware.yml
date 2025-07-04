@@ -1,0 +1,50 @@
+name: Report a hardware
+description: Your reported hardware will be added to table
+title: "[Hardware]"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please, leave title unchacnged
+
+  - type: dropdown
+    attributes:
+      label: Overall experience
+      multiple: false
+      options:
+        - Perfect
+        - Playable with minor issues
+        - Unplayable
+    validations:
+      required: true
+
+  - type: input
+    id: wine-version
+    attributes:
+      label: Wine version
+      description: Input `kron4ek-wine-10.10-staging-tkg-amd64` if you are using Bottles
+    validations:
+      required: true
+
+  - type: input
+    id: system
+    attributes:
+      label: System info
+      description: Your linux distribution, desktop environment, any relevant data
+      placeholder: for ex. Fedora 42, KDE 6, Wayland
+    validations:
+      required: true
+
+  - type: input
+    id: gpu
+    attributes:
+      label: Your GPU
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: Anything else? Leave a comment with additional information
+    validations:
+      required: false
