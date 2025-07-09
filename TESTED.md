@@ -10,6 +10,7 @@
 |-|--------------|------------|-----|---------|
 | ✅ | wine 10.7 staging | Fedora 42, Hyprland, Wayland | RX 570 | 
 | ✅ | [wine-tkg 10.4 staging ntsync](https://github.com/future-XD/wine-tkg-staging-ntsync-git) | Fedora 42, GNOME, Wayland | RX 7900 XTX | 
-| ⚠️ | wine-tkg 10.9 staging | Mint 22.1, Cinnamon | RTX 3070 | Missing textures, gameplay not affected
+| ⚠️ | wine-tkg 10.9 staging | Mint 22.1, Cinnamon | RTX 3070 | Missing textures, gameplay not affected |
+| ✅ | kron4ek-wine-10.10-staging-tkg-amd64 | Arch Linux (Kernel 6.15.5), Hyprland 0.49.0 | RTX 3060 |
 
 ...actually there are few more confirmed runs without provided info, feel free to [report your hardware](https://github.com/aamaanaa/strinova-linux/issues/new/choose)
