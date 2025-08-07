@@ -1,8 +1,8 @@
 ### Legend
 
-- ✅ perfect game experience
-- ⚠️ playable 
-- ❌ dont work at all
+- ✅ Perfect game experience
+- ⚠️ Playable 
+- ❌ Does not work at all
 
 ### Hardware Table
 
@@ -16,7 +16,7 @@
 | ✅ | wine-10.11-staging-tkg-ntsync-amd64-wow64 | Arch linux, KDE Plasma, Wayland, Zen 6.15.5 | AMD Radeon RX 480 |
 | ✅ | kron4ek-wine-10.12-staging-tkg-amd64 | Manjaro, GNOME, Wayland | AMD Radeon RX 6800 xt |
 | ✅ | Kron4ek-wine-10.10-staging-tkg-amd64 | Endeavor Os, KDE 6, Wayland | Nvidia RTX 3070 Mobile | 
-
+| ✅ | kron4ek-wine-10.10-staging-tkg-amd64 | Ultramarine 42, GNOME, Wayland | RX 9060 XT 16GB | 
 
 
 ...actually there are few more confirmed runs without provided info, feel free to [report your hardware](https://github.com/aamaanaa/strinova-linux/issues/new/choose)
