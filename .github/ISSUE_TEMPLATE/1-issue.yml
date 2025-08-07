@@ -1,10 +1,11 @@
-name: Issue with game
-description: File an issue report
+name: Issue with Game
+description: Report a bug or problem with the game or launcher
 title: "[Issue] "
 body:
   - type: dropdown
     attributes:
-      label: Installation method
+      label: Installation Method
+      description: How did you install Strinova?
       multiple: false
       options:
         - From Lutris
@@ -18,8 +19,9 @@ body:
   - type: input
     id: wine-version
     attributes:
-      label: Wine version
-      description: Required if you installed Strinova manually or changed Wine version 
+      label: Wine Version (if applicable)
+      description: Only required if you installed manually or changed the Wine version.
+      placeholder: e.g. lutris-GE-Proton8-10 or wine-9.0
     validations:
       required: false
 
@@ -27,34 +29,56 @@ body:
     id: gpu
     attributes:
       label: GPU
+      placeholder: e.g. NVIDIA RTX 3070 or AMD RX 6700XT
     validations:
       required: true
 
   - type: input
     id: system
     attributes:
-      label: System info
-      description: Your linux distribution, desktop environment, any relevant data
-      placeholder: for ex. Fedora 42, KDE 6, Wayland
+      label: System Info
+      description: Your Linux distribution, desktop environment, and display server.
+      placeholder: e.g. Fedora 42, KDE 6, Wayland
     validations:
       required: true
 
   - type: textarea
     id: issue
     attributes:
-      label: What happened?
+      label: What Happened?
+      description: Describe the issue in detail. What did you expect to happen, and what actually happened?
+      placeholder: The game crashes after launch... or Launcher does not show any games...
     validations:
       required: true
-  
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce (Optional)
+      description: If possible, list the steps to consistently reproduce the issue.
+      placeholder: |
+        1. Open Lutris
+        2. Launch Strinova
+        3. Click "Start Game"
+        4. Game freezes on loading screen
+    validations:
+      required: false
+
   - type: textarea
     id: logs
     attributes:
-      label: Logs from Lutris/Game
+      label: Logs or Terminal Output
+      description: Include any logs from Lutris, Bottles, terminal output, or crash dumps.
       render: shell
-  
+      placeholder: |
+        Paste relevant log output here.
+        You can also attach log files if needed.
+    validations:
+      required: false
+
   - type: dropdown
     attributes:
-      label: Where issue happened?
+      label: Where Did the Issue Occur?
       multiple: false
       options:
         - Game
