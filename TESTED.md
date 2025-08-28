@@ -17,6 +17,7 @@
 | ✅ | kron4ek-wine-10.12-staging-tkg-amd64 | Manjaro, GNOME, Wayland | AMD Radeon RX 6800 xt |
 | ✅ | Kron4ek-wine-10.10-staging-tkg-amd64 | Endeavor Os, KDE 6, Wayland | Nvidia RTX 3070 Mobile | 
 | ✅ | kron4ek-wine-10.10-staging-tkg-amd64 | Ultramarine 42, GNOME, Wayland | RX 9060 XT 16GB | 
+| ✅ | wine-10.7-staging-tk-x86_64 | Debain Unstable, Cinnamon, Xorg | Radeon VEGA 6 | Running fine with luteis. Bottles presents issues with freezing
 
 
 ...actually there are few more confirmed runs without provided info, feel free to [report your hardware](https://github.com/aamaanaa/strinova-linux/issues/new/choose)
