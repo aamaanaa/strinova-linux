@@ -1,23 +1,20 @@
-# Video guide
-https://www.youtube.com/watch?v=ylbCdFw0ACU
-
-
-# Text Guide
+# Guide
 
 ## 1. Installing launcher
 > [!NOTE]
 > Recommend to leave installation path `C:\Strinova`
 
-### Install from Lutris (Recommend)
-- Click the `+` icon 
-- Find `Strinova` in `Searh the lutris site for installers`
-![](./script.png)
+~~### Install from Lutris website~~
+Not recommended, because of these reasons:
+- the lutris team made a mistake and messed up the script and gave wrong copyright
+- it can not be updated, since the time taken to approve it on thier websites takes way way to long.
 
-### Manual import
+### Manual import in Lutris (Recommended)
 - Download the yaml playbook [here](./strinova.yml).
 - click the `+` icon in lutris
 - Select `Install from a local install script`
 - Select the downloaded yaml file
+- Follow on screen instructions
 
 ### After installing
 After installing the launcher, close the window and run the launcher in Lutris
@@ -36,7 +33,7 @@ After installing the launcher, close the window and run the launcher in Lutris
 ### Import existing installation from Windows
 - Copy game to `Strinova/Game`
 - Open `Strinova/config.ini`
-- Change `CurrentGameVersion` to `1.3.10.21`
+- Change `CurrentGameVersion` to `< current release number >`
 - Change `CurrentStage` to `INITSTAGE`
 
 The version will fall out of date over time, copy new value from Windows or start downloading fresh to get current version string
