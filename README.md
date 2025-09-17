@@ -10,9 +10,10 @@ Lutris/Bottles script and guide to let strinova run on linux. It works by settin
 - Guide for: [`Bottles`](./bottles/INSTALLATION.md)
 
 ### Tested systems & configurations
-check out [`TESTED`](./TESTED.md) for more information. This should you give a good idea of how this game runs under certain situations.
+check out [`TESTED`](./TESTED.md) for more information. This should you give a good idea of how this game runs under certain configurations.
 
-AMD users: Should work out of the box on any AMD GPU without issues.
+- **AMD users**: Should work out of the box on any AMD GPU without issues.
+- **Steam users**: [Might work](https://github.com/aamaanaa/strinova-linux/issues/28) out of the box.
 
 ### Bannable?
 So far there are **no reports with bans**. The installation methods in this repo do not modify game files, use injection, or any other alterations.
@@ -30,6 +31,12 @@ If, in the future, for some reason the devs decide linux is now allowed and you 
 ### Additional info
 - **Reddit discussion:** https://www.reddit.com/r/linux_gaming/comments/1l31uvj/psa_strinova_works/
 - **Steam issue tracker:** https://github.com/ValveSoftware/Proton/issues/8262
+
+## Donate
+If you like the repo and vallue our work, please donate some of your bitcoin's so i can buy coffee and kebab:
+- `bc1q4ruc4kyrrgls9q9q83xc7v7wlzr92wdxz0h7lg`
+
+Thanks a lot!
 
 ### Disclaimer
 This project is provided "as is" without any warranties, express or implied. It is a community-maintained guide and is not affiliated with or endorsed by the developers of Strinova.
