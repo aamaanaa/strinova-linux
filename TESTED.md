@@ -8,7 +8,7 @@
 
 | | Wine version | System, DE | GPU | Comment |
 |-|--------------|------------|-----|---------|
-| ✅ | [wine-tkg 10.4 staging ntsync](https://github.com/future-XD/wine-tkg-staging-ntsync-git) | Fedora 42, GNOME, Wayland | [NITRO+ AMD Radeon™ RX 7900 XTX Vapor-X 24GB](https://www.sapphiretech.com/en/consumer/nitro-radeon-rx-7900-xtx-vaporx-24g-gddr6) | Repo author's system. Amd 9 9950X3D cpu, overclocked. GPU has byski waterblock.
+| ✅ | [wine-tkg 10.5 staging ntsync](https://github.com/future-XD/wine-tkg-staging-ntsync-git) | Fedora 43, GNOME, Wayland (stock kernel) | [NITRO+ AMD Radeon™ RX 7900 XTX Vapor-X 24GB](https://www.sapphiretech.com/en/consumer/nitro-radeon-rx-7900-xtx-vaporx-24g-gddr6) | Repo author's system. Amd 9 9950X3D cpu, overclocked. GPU has byski waterblock.
 | ✅ | wine 10.7 staging | Fedora 42, Hyprland, Wayland | RX 570, RX5600 GPU | 
 | ⚠️ | wine-tkg 10.9 staging | Mint 22.1, Cinnamon | RTX 3070 | Missing textures, gameplay not affected |
 | ✅ | kron4ek-wine-10.10-staging-tkg-amd64 | Arch Linux (Kernel 6.15.5), Hyprland 0.49.0 | RTX 3060 |
