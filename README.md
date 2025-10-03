@@ -5,6 +5,10 @@ Lutris/Bottles script and guide to let strinova run on linux. It works by settin
 
 <hr></hr>
 
+## Donate
+Pssst! If you like the repo and vallue our work, please donate some of your bitcoin's so i can buy coffee and kebab:
+- `bc1q4ruc4kyrrgls9q9q83xc7v7wlzr92wdxz0h7lg` (Thanks a lot!)
+
 ### Installation Guides
 - Guide for: [`Lutris`](./lutris/INSTALLATION.md)
 - Guide for: [`Bottles`](./bottles/INSTALLATION.md)
@@ -18,23 +22,15 @@ check out [`TESTED`](./TESTED.md) for more information. This should you give a g
 ### Bannable?
 So far there are **no reports with bans**. The installation methods in this repo do not modify game files, use injection, or any other alterations.
 
-> **DO NOT SHARE** your `accountID` when mentioning that you running Strinova on Linux, for example exposed in a youtube video, a reddit post, or a screenshot!
+I can highly recommend to [Read the discussion's](https://github.com/aamaanaa/strinova-linux/discussions/31). So far no isssues at all.
 
-If, in the future, for some reason the devs decide linux is now allowed and you get banned, please open up a new issue.
+> **DO NOT SHARE** your `accountID` when mentioning that you running Strinova on Linux, for example exposed in a youtube video, a reddit post, or a screenshot!
 
 ### Having issues?
 - Check [known issues](./KNOWN_ISSUES.md) 
 - Report a [new issue](https://github.com/aamaanaa/strinova-linux/issues/new/choose)
 
 **DO NOT** report non-steam specific issues in [valve's proton github repo](https://github.com/ValveSoftware/Proton/issues/8262)!
-
-### Additional info
-- **Reddit discussion:** https://www.reddit.com/r/linux_gaming/comments/1l31uvj/psa_strinova_works/
-- **Steam issue tracker:** https://github.com/ValveSoftware/Proton/issues/8262
-
-## Donate
-If you like the repo and vallue our work, please donate some of your bitcoin's so i can buy coffee and kebab:
-- `bc1q4ruc4kyrrgls9q9q83xc7v7wlzr92wdxz0h7lg`
 
 Thanks a lot!
 
