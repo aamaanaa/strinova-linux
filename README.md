@@ -13,6 +13,8 @@ Pssst! If you like the repo and vallue our work, please donate some of your bitc
 - Guide for: [`Lutris`](./lutris/INSTALLATION.md)
 - Guide for: [`Bottles`](./bottles/INSTALLATION.md)
 
+**Please, do NOT use the install scripts from the [`Lutris website`](https://github.com/aamaanaa/strinova-linux/issues/2) !** Use the methods provided in this repo only. Help will not be given if you use methods or scripts from other sources!
+
 ### Tested systems & configurations
 check out [`TESTED`](./TESTED.md) for more information. This should you give a good idea of how this game runs under certain configurations.
 
