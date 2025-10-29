@@ -19,5 +19,6 @@
 | ✅ | kron4ek-wine-10.10-staging-tkg-amd64 | Ultramarine 42, GNOME, Wayland | RX 9060 XT 16GB | 
 | ✅ | wine-10.7-staging-tk-x86_64 | Debain Unstable, Cinnamon, Xorg | Radeon VEGA 6 | Running fine with luteis. Bottles presents issues with freezing
 | ✅ | kron4ek-wine-10.12-staging-tkg-amd64 | CachyOS, AwesomeWM | AMD Radeon RX 5500M
+| ✅ | kron4ek-wine-10.17-staging-tkg-amd64| Arch Linux 6.17.5-lqx1, Hyprland | RTX3060 (580.95.05)
 
 ...actually there are few more confirmed runs without provided info, feel free to [report your hardware](https://github.com/aamaanaa/strinova-linux/issues/new/choose)
