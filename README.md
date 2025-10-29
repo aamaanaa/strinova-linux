@@ -13,7 +13,7 @@ Lutris/Bottles script and guide to let strinova run on linux. It works by settin
 
 ## Donate
 Pssst! If you like the repo and vallue our work, please donate some of your bitcoin's so i can buy coffee and kebab:
-- `bc1q4ruc4kyrrgls9q9q83xc7v7wlzr92wdxz0h7lg` (Thanks a lot!)
+- `bc1qzaen9cr8q754zah86fkzrk7m7ura8t9r89rsgm` (Thanks a lot!)
 
 ### Installation Guides
 - Guide for: [`Lutris`](./lutris/INSTALLATION.md)
