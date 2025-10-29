@@ -5,6 +5,12 @@ Lutris/Bottles script and guide to let strinova run on linux. It works by settin
 
 <hr></hr>
 
+
+> [!CAUTION]
+> This project and it's intructions are provided as is without any guarantee in any kind, and may violate the games terms of service (TOS). The author and contributors are not responsible for any in game bans. Use this at your own risk.
+
+<hr>
+
 ## Donate
 Pssst! If you like the repo and vallue our work, please donate some of your bitcoin's so i can buy coffee and kebab:
 - `bc1q4ruc4kyrrgls9q9q83xc7v7wlzr92wdxz0h7lg` (Thanks a lot!)
@@ -29,18 +35,13 @@ I can highly recommend to [Read the discussion's](https://github.com/aamaanaa/st
 > **DO NOT SHARE** your `accountID` when mentioning that you running Strinova on Linux, for example exposed in a youtube video, a reddit post, or a screenshot!
 
 ### Having issues?
+
+> [!WARNING]
+> Do not open issues witout proper logging of for example lutris and what game version, distro, hardware drivers and so on. witout these i can not help you.
+
 - Check [known issues](./KNOWN_ISSUES.md) 
 - Report a [new issue](https://github.com/aamaanaa/strinova-linux/issues/new/choose)
 
 **DO NOT** report non-steam specific issues in [valve's proton github repo](https://github.com/ValveSoftware/Proton/issues/8262)!
 
 Thanks a lot!
-
-### Disclaimer
-This project is provided "as is" without any warranties, express or implied. It is a community-maintained guide and is not affiliated with or endorsed by the developers of Strinova.
-
-Running Strinova on Linux — whether via Wine, Lutris, Bottles, or any other method — is not officially supported and may violate the game's terms of service.
-
-No bans have been reported at this time, and the provided setup does not modify game files or use intrusive methods. However, there is no guarantee of safety or compatibility. Use at your own risk.
-
-The maintainers of this project accept no responsibility or liability for any account bans, suspensions, or other consequences resulting from the use of this guide or any associated files or scripts.
