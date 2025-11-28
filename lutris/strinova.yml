@@ -10,7 +10,7 @@ script:
   files:
   - installer:
       filename: StrinovaSetup.exe
-      url: https://resource-download.strinova.com/Client/Win/GameDepot/Launcher_Release/1.1.13.631/Strinova_Installer_Release_1.1.13.631.exe
+      url: https://resource-download.strinova.com/Client/Win/GameDepot/Launcher_Release/1.1.14.633/Strinova_Installer_Release_1.1.14.633.exe
   game:
     arch: win64
     exe: $GAMEDIR/drive_c/Strinova/Strinova.exe
@@ -34,7 +34,6 @@ script:
   wine:
     overrides:
       tdh.dll: n
-    version: wine-10.7-staging-tk-x86_64
 slug: strinova-download-v119
 steamid: 1282270
 version: download, v1.1.9
