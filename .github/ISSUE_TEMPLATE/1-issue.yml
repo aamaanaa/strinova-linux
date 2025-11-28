@@ -1,8 +1,17 @@
 name: Issue with Game
-description: Report a bug or problem with the game or launcher
+description: Report a bug or problem with the game or launcher.
 title: "[Issue] "
 body:
+  - type: checkboxes
+    attributes:
+      label: Before You Submit
+      description: Please confirm the following.
+      options:
+        - label: I have checked for existing and open issues to avoid duplicates.
+          required: true
+
   - type: dropdown
+    id: install-method
     attributes:
       label: Installation Method
       description: How did you install Strinova?
@@ -20,7 +29,7 @@ body:
     id: wine-version
     attributes:
       label: Wine Version (if applicable)
-      description: Only required if you installed manually or changed the Wine version.
+      description: Only required if installed manually or if you changed the Wine version.
       placeholder: e.g. lutris-GE-Proton8-10 or wine-9.0
     validations:
       required: false
@@ -55,7 +64,7 @@ body:
     id: steps
     attributes:
       label: Steps to Reproduce (Optional)
-      description: If possible, list the steps to consistently reproduce the issue.
+      description: If possible, list steps to reproduce the issue.
       placeholder: |
         1. Open Lutris
         2. Launch Strinova
@@ -68,7 +77,7 @@ body:
     id: logs
     attributes:
       label: Logs or Terminal Output
-      description: Include any logs from Lutris, Bottles, terminal output, or crash dumps.
+      description: Include any relevant logs from Lutris, Bottles, terminal, or crash dumps.
       render: shell
       placeholder: |
         Paste relevant log output here.
@@ -77,6 +86,7 @@ body:
       required: false
 
   - type: dropdown
+    id: occurrence
     attributes:
       label: Where Did the Issue Occur?
       multiple: false
