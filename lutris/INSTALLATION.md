@@ -1,13 +1,6 @@
-# Guide
+# Guide for Lutris
 
 ## 1. Installing launcher
-> [!NOTE]
-> Recommend to leave installation path `C:\Strinova`
-
-~~### Install from Lutris website~~
-Not recommended, because of these reasons:
-- the lutris team made a mistake and messed up the script and gave wrong copyright
-- it can not be updated, since the time taken to approve it on thier websites takes way way to long.
 
 ### Manual import in Lutris (Recommended)
 - Download the yaml playbook [here](./strinova.yml).
@@ -16,21 +9,23 @@ Not recommended, because of these reasons:
 - Select the downloaded yaml file
 - Follow on screen instructions
 
-### After installing
-After installing the launcher, close the window and run the launcher in Lutris
+After installing the launcher, close the window and run the launcher in Lutris. Please, do not yet launch the game.
 
 ## 2. Game installation
 > [!WARNING]
-> Game installation(and update) and running game may require different wine versions!
-> If installation failed (launcher crashes), select `wine-ge-proton-8.26` as your runner
+> Game installation (and update) and running game may require different wine versions!
+> If installation failed (launcher crashes), select `wine-ge-proton-8.26 (Default)` as your runner, wich is the standard runner bundeled with Lutris.
 
 > [!NOTE]
-> Recommend to leave installation path `C:\Strinova\Game`
+> It is recommend to leave the installation path at the launcher default of: `C:\Strinova\Game`
 
 ### Installing the game using launcher
-- Well... Login and install the game
+- Well... Login and install the game. If it asks to install webvieuw, simply click skip.
 
 ### Import existing installation from Windows
+
+**NOTE that this is untested by me**
+
 - Copy game to `Strinova/Game`
 - Open `Strinova/config.ini`
 - Change `CurrentGameVersion` to `< current release number >`
@@ -38,14 +33,10 @@ After installing the launcher, close the window and run the launcher in Lutris
 
 The version will fall out of date over time, copy new value from Windows or start downloading fresh to get current version string
 
-
 ## 3. Launching the game
-Change wine runner to listed below
-- `wine 10.7 staging` *tested*
-- [`wine-tkg 10.4 staging ntsync`](https://github.com/future-XD/wine-tkg-staging-ntsync-git) *tested*
-- [`wine-tkg 10.10 staging ntsync`](https://github.com/Kron4ek/Wine-Builds/releases/tag/10.10) *tested*
+Change wine runner to one of the below listed for the smoothest game experience:
+- [`wine-tkg 10+ staging ntsync`](https://github.com/future-XD/wine-tkg-staging-ntsync-git) *tested, fork of Kron4ek tkg builds*
+- [`wine-tkg 10+ staging`](https://github.com/Kron4ek/Wine-Builds/releases/tag/10.10) *tested, NTSYNC build optional only if ur kernel supports it*
 
-...or any `wine-tkg 10.X staging` *not tested by repository maintainers*
-
-> [!TIP]
-> Successfully launched the game? Take a moment and [report your hardware](https://github.com/aamaanaa/strinova-linux/issues/new/choose)
+...or any other third party `wine-10+` *not tested by repository maintainers*
+ 
