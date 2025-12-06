@@ -7,6 +7,10 @@ Lutris/Bottles script and guide to let strinova run on linux. It works by settin
 Pssst! If you like the repo and vallue our work, please donate some of your bitcoin's so i can buy coffee and kebab:
 - `bc1qzaen9cr8q754zah86fkzrk7m7ura8t9r89rsgm`
 
+## Play with me
+Psst... want to play together with the autor of this repo? Decode this super secret string, and add me in game:
+- [`UGxheXNPbkxpbnV4`](https://cyberchef.org/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true,false)&input=cHV0IHRoZSBzdXBlciBzZWNyZXQgc3RyaW5nIGhlcmU)
+
 <hr></hr>
 
 ### Installation Guides
