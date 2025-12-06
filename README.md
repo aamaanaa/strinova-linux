@@ -38,13 +38,15 @@ I can highly recommend to [Read the bans discussion](https://github.com/aamaanaa
 
 I still advice you to not share / show your `accountID` when mentioning that you running Strinova on Linux, for example exposed in a youtube video, a reddit post, or a screenshot!
 
-### Having issues?
+You may search for anticheat issues based on the [`anticheat`](https://github.com/aamaanaa/strinova-linux/issues?q=label%3Aanticheat) label.
 
-Please, Do not open issues witout proper logging of for example lutris and what game version, distro, hardware drivers and so on. witout these i can not help you.
+### Issues
 
 - Check [known issues](./KNOWN_ISSUES.md) 
-- Report a [new issue](https://github.com/aamaanaa/strinova-linux/issues/new/choose)
+- Report a [new issue](https://github.com/aamaanaa/strinova-linux/issues/new/choose), and make sure to add logging and add as much information as you possibly can.
 
-**!! Duplicate reports or low effort issues will be closed with no warning !!**
+I do my best do mark issues with a label for ease of navigation.
 
-**!! DO NOT report issues on steam's proton repo! That is for Steam only, wich is for now not handeled in this repo!!**
+- Please note that if there is no activity in a issue, it will be marked with a label *stale*. Afther prolonged period of no activity in the issue or no reponse, it will be closed to keep the issue tracker clean.
+- Low effort issues will be closed. With that i mean barly any information, stalling, and so on.
+- Issues generated with the help of AI will be ignored.
