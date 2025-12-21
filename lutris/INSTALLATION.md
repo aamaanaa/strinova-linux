@@ -1,5 +1,14 @@
 # Guide for Lutris
 
+## Use the automated installer **(Recommended)**
+
+**THE FOLLOWING IS IN PROGRESS AND WILL BE RELEASED SHORTLY**
+
+The automated installer will do the following:
+- check for any recommended wine runners
+   - if not present, download and install one
+- Generates the YAML file for the Lutris installer automaticly
+
 ## 1. Installing launcher
 
 ### Manual import in Lutris (Recommended)
