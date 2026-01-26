@@ -10,7 +10,7 @@ script:
   files:
   - installer:
       filename: StrinovaSetup.exe
-      url: https://resource-download.strinova.com/Client/Win/GameDepot/Launcher_Release/1.1.14.633/Strinova_Installer_Release_1.1.14.633.exe
+      url: https://resource-download.strinova.com/Client/Win/GameDepot/Launcher_Release/1.1.17.643/Strinova_Installer_Release_1.1.17.643.exe
   game:
     arch: win64
     exe: $GAMEDIR/drive_c/Strinova/Strinova.exe
