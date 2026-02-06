@@ -21,6 +21,7 @@
 | ✅ | kron4ek-wine-10.12-staging-tkg-amd64 | CachyOS, AwesomeWM | AMD Radeon RX 5500M
 | ✅ | kron4ek-wine-10.17-staging-tkg-amd64| Arch Linux 6.17.5-lqx1, Hyprland | RTX3060 (580.95.05)
 | ✅ | kron4ek-wine-10.18-staging-tkg-amd64| Fedora 43 KDE(wayland) | 1050ti/mx150 (same gpu)  | Everything works fine, but the game launches only on the second attempt. I’m running the game via Steam inside Bottles. This is the same setup I used on Windows, and I didn’t bother reinstalling the game separately for Linux without steam.Problem: after clicking Run in the launcher, the game hangs on a black screen. I have to close it, launch it again - and only then it works.This happens every time. Even if I close only the game (not the launcher), I still need to start it twiceI suspect this is related to running the game from an NTFS drive mounted via userspace FS(ntfs-3g).What’s especially odd, the game launches only when the drive is mounted by Dolphin.When I set up auto-mount with the same filesystem (ntfs-3g) or with ntfs3, the game stops launching entirely I tried to mount the disk in the home directory, at the moment when Dolphin mounts it in /run/media/{user}/{mount_point} maybe it is reason, IDK. 
+| ✅ | kron4ek-wine-10.10-staging-tkg-amd64 | Ubuntu 25.04 with KDE | NVIDIA RTX 4060 |
 
 
 
