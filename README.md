@@ -9,13 +9,13 @@ Psst... want to play together with the autor of this repo? Decode this super sec
 
 <hr></hr>
 
-### TODO
+## TODO
 - [ ] partly automate lutris installs
 - [ ] block game trackig servers
 
 <hr></hr>
 
-### Installation Guides
+## Installation Guides
 
 > [!CAUTION]
 > Please, do NOT ever use the install scripts from the Lutris website!!! [`See issue: #2`](https://github.com/aamaanaa/strinova-linux/issues/2) !
@@ -31,14 +31,14 @@ The Author, i, aamaanaa, will ONLY give support for Lutris based installs. Botle
 there are reports that the steam version works, with tweaks. If anyone wants to make a guide for that, open up a pull request. 
 For more information you might want to check [this out](https://github.com/aamaanaa/strinova-linux/issues/28)
 
-### Hardware support
+## Hardware support
 - **AMD users**: Should work out of the box on any AMD GPU without issues.
 - **Nvidia users**: might have black screen artifacting, fps issues.
 - **Intel Arc users**: No information yet
 
-You mat find tested out and working configurations by the community on [`TESTED`](TESTED.md)
+You may find out tested out and working configurations / systems by the community on the [`TESTED`](TESTED.md) page.
 
-### Bannable?
+## Bannable?
 So far there are **no reports with bans**. The installation methods in this repo do not modify game files, use injection, or any other alterations.
 I can highly recommend to [Read the bans discussion](https://github.com/aamaanaa/strinova-linux/discussions/31).
 
@@ -46,7 +46,7 @@ I still advice you to not share / show your `accountID` when mentioning that you
 
 You may search for anticheat issues based on the [`anticheat`](https://github.com/aamaanaa/strinova-linux/issues?q=label%3Aanticheat) label.
 
-### Issues
+## Issues ?
 - Check [known issues](./KNOWN_ISSUES.md) 
 - Report a [new issue](https://github.com/aamaanaa/strinova-linux/issues/new/choose), and make sure to add logging and add as much information as you possibly can.
 
