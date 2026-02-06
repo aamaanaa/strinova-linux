@@ -41,3 +41,6 @@ Change wine runner to one of the below listed to start playing the game:
 - ~~[`wine-tkg 10+ staging ntsync`](https://github.com/future-XD/wine-tkg-staging-ntsync-git)~~ *No longer works*
 - ~~[`wine-tkg 10+ staging`](https://github.com/Kron4ek/Wine-Builds/releases/tag/10.10)~~ *No longer works*
 - [`ProtonDW`](https://github.com/Vysp3r/ProtonPlus) *Tested and confirmed working* 
+
+> [!TIP]
+> Successfully launched the game? Take a moment and [report your hardware](https://github.com/aamaanaa/strinova-linux/issues/new/choose)
