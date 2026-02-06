@@ -1,3 +1,13 @@
+> [!WARNING]
+> Game installation (and update) and running game may require different wine versions!
+> If installation failed (launcher crashes), select `wine-ge-proton-8.26 (Default)` as your runner, wich is the standard runner bundeled with Lutris.
+
+> [!NOTE]
+> It is recommend to leave the installation path at the launcher default of: `C:\Strinova\Game`
+
+> [!WARNING]
+> Any other proton version other then protonDW for playing the game will no longer work, see https://github.com/aamaanaa/strinova-linux/issues/43
+
 # Guide for Lutris
 
 ## 1. Installing launcher
@@ -12,15 +22,6 @@
 After installing the launcher, close the window and run the launcher in Lutris. Please, do not yet launch the game, as this will fial due to anticheat requirements in the wine runner.
 
 ## 2. Game installation
-> [!WARNING]
-> Game installation (and update) and running game may require different wine versions!
-> If installation failed (launcher crashes), select `wine-ge-proton-8.26 (Default)` as your runner, wich is the standard runner bundeled with Lutris.
-
-> [!NOTE]
-> It is recommend to leave the installation path at the launcher default of: `C:\Strinova\Game`
-
-> [!WARNING]
-> Any other proton version other then protonDW for playing the game will no longer work, see https://github.com/aamaanaa/strinova-linux/issues/43
 
 ### Installing the game using launcher
 - Well... Login and install the game. If it asks to install webvieuw, simply click skip.
