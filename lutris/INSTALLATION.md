@@ -1,14 +1,5 @@
 # Guide for Lutris
 
-## Use the automated installer **(Recommended)**
-
-**THE FOLLOWING IS IN PROGRESS AND WILL BE RELEASED SHORTLY**
-
-The automated installer will do the following:
-- check for any recommended wine runners
-   - if not present, download and install one
-- Generates the YAML file for the Lutris installer automaticly
-
 ## 1. Installing launcher
 
 ### Manual import in Lutris (Recommended)
@@ -18,7 +9,7 @@ The automated installer will do the following:
 - Select the downloaded yaml file
 - Follow on screen instructions
 
-After installing the launcher, close the window and run the launcher in Lutris. Please, do not yet launch the game.
+After installing the launcher, close the window and run the launcher in Lutris. Please, do not yet launch the game, as this will fial due to anticheat requirements in the wine runner.
 
 ## 2. Game installation
 > [!WARNING]
@@ -27,6 +18,9 @@ After installing the launcher, close the window and run the launcher in Lutris. 
 
 > [!NOTE]
 > It is recommend to leave the installation path at the launcher default of: `C:\Strinova\Game`
+
+> [!WARNING]
+> Any other proton version other then protonDW for playing the game will no longer work, see https://github.com/aamaanaa/strinova-linux/issues/43
 
 ### Installing the game using launcher
 - Well... Login and install the game. If it asks to install webvieuw, simply click skip.
@@ -43,9 +37,7 @@ After installing the launcher, close the window and run the launcher in Lutris. 
 The version will fall out of date over time, copy new value from Windows or start downloading fresh to get current version string
 
 ## 3. Launching the game
-Change wine runner to one of the below listed for the smoothest game experience:
-- [`wine-tkg 10+ staging ntsync`](https://github.com/future-XD/wine-tkg-staging-ntsync-git) *tested, fork of Kron4ek tkg builds*
-- [`wine-tkg 10+ staging`](https://github.com/Kron4ek/Wine-Builds/releases/tag/10.10) *tested, NTSYNC build optional only if ur kernel supports it*
-
-...or any other third party `wine-10+` *not tested by repository maintainers*
- 
+Change wine runner to one of the below listed to start playing the game:
+- ~~[`wine-tkg 10+ staging ntsync`](https://github.com/future-XD/wine-tkg-staging-ntsync-git)~~ *No longer works*
+- ~~[`wine-tkg 10+ staging`](https://github.com/Kron4ek/Wine-Builds/releases/tag/10.10)~~ *No longer works*
+- [`ProtonDW`](https://github.com/Vysp3r/ProtonPlus) *Tested and confirmed working* 
