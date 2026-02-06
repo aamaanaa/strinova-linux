@@ -9,6 +9,12 @@ Psst... want to play together with the autor of this repo? Decode this super sec
 
 <hr></hr>
 
+### TODO
+- [ ] partly automate lutris installs
+- [ ] block game trackig servers
+
+<hr></hr>
+
 ### Installation Guides
 
 > [!CAUTION]
@@ -29,7 +35,7 @@ For more information you might want to check [this out](https://github.com/aamaa
 - **AMD users**: Should work out of the box on any AMD GPU without issues.
 - **Nvidia users**: might have black screen artifacting, fps issues.
 - **Intel Arc users**: No information yet
-- 
+
 ### Bannable?
 So far there are **no reports with bans**. The installation methods in this repo do not modify game files, use injection, or any other alterations.
 I can highly recommend to [Read the bans discussion](https://github.com/aamaanaa/strinova-linux/discussions/31).
@@ -44,6 +50,4 @@ You may search for anticheat issues based on the [`anticheat`](https://github.co
 
 I do my best do mark issues with a label for ease of navigation.
 
-- Please note that if there is no activity in a issue, it will be marked with a label *stale*. Afther prolonged period of no activity in the issue or no reponse, it will be closed to keep the issue tracker clean.
-- Low effort issues will be closed. With that i mean barly any information, stalling, and so on.
-- Issues generated with the help of AI will be ignored.
+
