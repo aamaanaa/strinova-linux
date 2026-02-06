@@ -36,6 +36,8 @@ For more information you might want to check [this out](https://github.com/aamaa
 - **Nvidia users**: might have black screen artifacting, fps issues.
 - **Intel Arc users**: No information yet
 
+You mat find tested out and working configurations by the community on [`TESTED`](TESTED.md)
+
 ### Bannable?
 So far there are **no reports with bans**. The installation methods in this repo do not modify game files, use injection, or any other alterations.
 I can highly recommend to [Read the bans discussion](https://github.com/aamaanaa/strinova-linux/discussions/31).
