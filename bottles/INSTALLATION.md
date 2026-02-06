@@ -1,6 +1,8 @@
-# Video Guide: 
-https://www.youtube.com/watch?v=tTXlXtChcfc
+> [!WARNING]
+> Any other proton version other then protonDW for playing the game will no longer work, see https://github.com/aamaanaa/strinova-linux/issues/43
 
+# Video Guide: 
+https://www.youtube.com/watch?v=tTXlXtChcfc (thanks btw)
 
 # Text Guide
 
