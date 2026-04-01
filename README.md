@@ -7,16 +7,15 @@ Guide to let strinova run on linux. It works by setting a certain registery key,
 Psst... want to play together with the autor of this repo? Decode this super secret string by clicking on it, entering it, and then add me in game.
 - Super secret String: [`UGxheXNPbkxpbnV4`](https://cyberchef.org/#recipe=From_Base64('A-Za-z0-9%2B/%3D',true,false)&input=cHV0IHRoZSBzdXBlciBzZWNyZXQgc3RyaW5nIGhlcmU)
 
-<hr></hr>
+---
 
 ## TODO
 - [ ] partly automate lutris installs
 - [ ] block game tracking servers
 
-<hr></hr>
+---
 
 ## Installation Guides
-
 > [!CAUTION]
 > Please, do NOT ever use the install scripts from the Lutris website!!! [`See issue: #2`](https://github.com/aamaanaa/strinova-linux/issues/2) !
 > Use the methods provided in this repo only. Help will not be given if you use methods or scripts from other sources!
@@ -34,8 +33,6 @@ For more information you might want to check [this out](https://github.com/aamaa
 - **Nvidia users**: might have black screen artifacting, fps issues.
 - **Intel Arc users**: No information yet
 
-You may find out tested out and working configurations / systems by the community on the [`TESTED`](TESTED.md) page.
-
 ## Bannable?
 So far there are **no reports with bans**. The installation methods in this repo do not modify game files, use injection, or any other alterations. It goes without saying that following this repo guide that any bans are soly on your own risk. The author and contributors will not be held acountable.
 
@@ -45,5 +42,3 @@ It is higly recommended to not share your `accountID` when mentioning that you r
 - Check out [known issues](./KNOWN_ISSUES.md) 
 - Report a [new issue](https://github.com/aamaanaa/strinova-linux/issues/new/choose), and make sure to add logging and add as much information as you possibly can.
 - Check for [anticheat issues](https://github.com/aamaanaa/strinova-linux/issues?q=label%3Aanticheat).
-
-
