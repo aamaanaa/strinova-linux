@@ -10,8 +10,8 @@ Psst... want to play together with the autor of this repo? Decode this super sec
 ---
 
 ## TODO
-- [ ] partly automate lutris installs
 - [ ] block game tracking servers
+- [ ] Add heroic games instalation guide
 
 ---
 
@@ -22,8 +22,7 @@ Psst... want to play together with the autor of this repo? Decode this super sec
 
 - Guide for: [`Lutris`](./lutris/INSTALLATION.md) (*Recommended & Tested*)
 - Guide for: [`Bottles`](./bottles/INSTALLATION.md)
-
-This repo is intended for Lutris only, all other non-lutris methods are considered best efford only support.
+- Guide for heroic comming soon
 
 there are reports that the steam version works, with tweaks. If anyone wants to make a guide for that, open up a pull request. 
 For more information you might want to check [this out](https://github.com/aamaanaa/strinova-linux/issues/28)
